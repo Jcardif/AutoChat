@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="Adapters\ChatListViewAdapter.cs" />
+    <Compile Include="Models\AutoChatItem.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -414,6 +416,13 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\chat_divider.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\layout\chat_user1_item.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\layout\chat_user2_item.axml" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.
